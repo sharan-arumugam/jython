@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'java-library'
+}
+
+sourceCompatibility = '1.8'
+targetCompatibility = '11'
+
+dependencies {
+    api 'org.python:jython:2.7.0'
+}
+
+repositories {
+	jcenter()
+}
